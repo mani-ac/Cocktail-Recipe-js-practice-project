@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cocktails</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="main-header container">
+      <h1 class="main-heading">Cocktails API</h1>
+      <input
+        type="text"
+        class="search-bar"
+        placeholder="Search your favourite cocktail..."
+        value=""
+      />
+    </header>
+    <main class="container">
+      <section class="drinks">
+        <article class="loading-gif hide-load">
+          <img src="./loading.gif" alt="loading-gif" />
+        </article>
+        <h2 class="no-data"></h2>
+        <ul class="grid--3--cols cocktail-list">
+          <!-- <li>
+            <a href="/drink.html" class="single-drink-view">
+              <article class="drink" data-id="17222">
+                <img
+                  src="https://www.thecocktaildb.com/images/media/drink/2x8thr1504816928.jpg"
+                  alt="cocktail-img"
+                  class="drink-img"
+                />
+                <h3>Margarita</h3>
+              </article>
+            </a>
+          </li> -->
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
